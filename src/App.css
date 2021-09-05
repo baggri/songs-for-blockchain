@@ -1,0 +1,114 @@
+@font-face { 
+  font-family: 'Lexend';
+  src: url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap'); 
+}
+
+@font-face { 
+  font-family: Lexend Deca;
+  src: url(LexendDeca-Regular.woff);
+}
+
+@font-face {
+  font-family: sf;
+  src: url(sf.woff)
+}
+
+body {background-color: white;}
+
+.mainontainer {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.dataContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 700px;
+  margin-top: 64px;
+  width: 70%
+}
+
+.header {
+  font-weight: 700;
+  font-family: Lexend Deca, Lexend, raleway, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, cursive;
+  color: linear-gradient(#e66465, #9198e5);
+  text-align: center;
+  font-size: 32px;
+}
+
+.bio {
+  font-family: sf, Lexend Deca, Lexend, raleway, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, cursive;
+  text-align: center;
+  color: black;
+  margin-top: 16px;
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+.waveButton {
+  justify-content: center;
+  cursor: pointer;
+  margin: 8px auto;
+  padding: 12px;
+  width: 70%;
+  text-align: center;
+  border-radius: 4px;
+  font-family: sf, Lexend Deca, Lexend, raleway, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, cursive;
+  color: black;
+  font-size: 16px;
+  background-color: white;
+  border: 2px solid black;
+
+}
+
+.waveButton:hover {
+  background-color: black;
+  color: white;
+}
+
+.waveText {
+  margin: 10px auto;
+  color: black;
+  background-color: white;
+  font-family: 'Open Sans';
+  width: 90%;
+  height: 60px;
+  font-size: 10;
+}
+
+.songSub {
+  border: 2px solid black;
+  margin: 8px auto;
+  padding: 8px;
+  width: 90%;
+  border-radius: 4px;
+  font-family: sf;
+}
+
+.number {
+  float: left;
+  font-family: sf;
+  text-align: left;
+  font-size: 12px;
+  position: fixed;
+  margin: 15px;
+}
+
+.songMsg {
+  font-weight: 500;
+  font-size: 17px;
+}
+
+.songTime {
+  color: rgb(83, 83, 83);
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.songAddy {
+  font-weight: 500;
+  font-size: 14px;
+  color: rgb(83, 83, 83);
+}

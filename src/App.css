@@ -31,8 +31,8 @@ body {background-color: white;}
 }
 
 .header {
-  font-weight: 700;
-  font-family: Lexend Deca, Lexend, raleway, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, cursive;
+  font-weight: 999;
+  font-family: sf, Lexend Deca, Lexend, raleway, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, cursive;
   color: linear-gradient(#e66465, #9198e5);
   text-align: center;
   font-size: 32px;

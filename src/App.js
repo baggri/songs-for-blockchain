@@ -109,7 +109,7 @@ export default function App() {
       <div className="mainontainer">
         <div className="dataContainer">
           <div className="header">
-            HEY! HEY! yes you
+            HEY! yeah you
             </div>
 
           <div className="bio">
